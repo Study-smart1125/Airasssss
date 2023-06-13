@@ -1,0 +1,38 @@
+*{
+	margin-left: px;
+	margin-top: 15px;
+}
+.container{
+	border-style: solid;
+	border-radius: 30px;
+	width: 90%;
+	height: 600px;
+	background: pink;
+	margin-right: 100px;
+}
+.question h1{
+	display: grid;
+    place-content: center;
+    color: red;
+	text-shadow: 0px 3px 5px black;
+	margin-top: 30px;
+}
+.question h2{
+	display: grid;
+    place-content: center;
+    color: red;
+	text-shadow: 0px 3px 5px black;
+}
+.question h2:hover{
+	font-size: 30px;
+}
+.answer{
+	display: flex;
+	justify-content: center;
+}
+#no{
+	position: absolute;
+	left: 300px;
+	top: 170px;
+}
+
